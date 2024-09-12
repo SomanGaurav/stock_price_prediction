@@ -1,5 +1,6 @@
 import data_collector 
 from sklearn.linear_model import LinearRegression 
+
 class Linear_Regression : 
     def __init__(self , stock_tick , start) -> None:
         self.stock_tick = stock_tick 
@@ -18,6 +19,8 @@ class Linear_Regression :
         inputs = self.dc.pred_data()
         lr_pred = self.lr.predict(inputs) 
         print(lr_pred)
+
+
 
 
 if __name__ == "__main__" : 

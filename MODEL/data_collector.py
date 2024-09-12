@@ -1,3 +1,4 @@
+
 import yfinance as yf
 import pandas as pd
 import numpy as np 
@@ -28,6 +29,7 @@ class DATACOLLECTOR :
 
     def pred_data(self): 
         return self.x_forecast 
+
 
 if __name__ == "__main__" : 
     dc = DATACOLLECTOR()
