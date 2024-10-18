@@ -14,11 +14,18 @@ def home():
 
 @app.route("/forecast" , methods = ["POST"])
 def forecast_out(): 
-    name = request.args.get('stockTick')
-    linear_model = Linear_Regression(name)
-    forecast_output = linear_model.make_prdictions()
-    output = {"forecast" : forecast_output[0] , "modelScore" : forecast_output[1]}
+    name = request.get_json() 
+    flag = 1
+    name = name['params']['stockTick']
+    print(name)
+    if(name!=None and flag == 1): 
+        linear_model = Linear_Regression(name)
+        forecast_output = linear_model.make_prdictions()
+        output = {"forecast" : forecast_output[0] , "modelScore" : forecast_output[1]}
+
+    else : 
+        output = name
     return output 
 
 if __name__ == "__main__" : 
-    app.run(debug=True) 
+    app.run(debug=True , host='0.0.0.0') 
