@@ -1,16 +1,13 @@
-const { response } = require("express");
-const https = require("https"); 
 
 
-function getData(){
-    fetch("https://www.nseindia.com/market-data/live-equity-market")
-    .then(async (response) => {
-            let data = await response.text()
-            return data ; 
-    })
+
+async function getData(){
+    const url = "https://www.nseindia.com/market-data/live-equity-market" ; 
+
+    const response = await fetch(url); 
+    const html = await response.text(); 
+    
+    console.log(html[145138]); 
 }
 
-const data = getData()
-console.log(data); 
-
-
+getData()
