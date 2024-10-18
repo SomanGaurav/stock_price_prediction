@@ -1,20 +1,20 @@
+const express = require("express");
+const mongoose = require("mongoose");
+const app = express();
+const cors = require("cors");
+const Router = express.Router;
+const dotenv = require("dotenv");
 
-const fs = require("fs"); 
+const { userRouter } = require("./Routes/user");
 
+dotenv.config();
 
-const url = "https://query1.finance.yahoo.com/v8/finance/chart/ADANIENT.NS" ; 
+app.use(cors());
+app.use(express.json());
+app.use("/user", userRouter);
 
-async function fetchData(url){
-    let response = await fetch(url) ; 
-    let data = await response.json(); 
-    return data ; 
+async function main() {
+  await mongoose.connect(process.env.DB_CONNECT.toString());
+  app.listen(3000);
 }
-
-
-fetchData(url).then((data)=> {
-    let data1 = JSON.stringify(data)
-    fs.writeFile('data.json' , data1 , (err)=> {
-        if(err)console.log(err);
-        else console.log("Data written")
-    })
-});  
+main();
