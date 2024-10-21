@@ -1,7 +1,7 @@
 from flask import Flask , request 
 from flask_cors import CORS 
+from flask import jsonify
 from models import Linear_Regression 
-
 app = Flask(__name__) 
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type' 
@@ -10,6 +10,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route("/test")
 def home(): 
     return "Hello to my server" 
+
 
 
 @app.route("/forecast" , methods = ["POST"])
@@ -27,5 +28,11 @@ def forecast_out():
         output = name
     return output 
 
+
+@app.route("/getIndices" , methods = ["POST"]) 
+def indices_out(): 
+    indices = request.get_json() 
+    # clean_index(indices)
+    return jsonify({"Hello" : "NODE"} )
 if __name__ == "__main__" : 
     app.run(debug=True , host='0.0.0.0') 

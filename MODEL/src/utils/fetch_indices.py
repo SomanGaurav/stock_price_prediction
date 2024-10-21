@@ -8,7 +8,7 @@ class IndexCollector :
         self.indices = indices 
         self.length = len(indices) 
         self.data = {}
-    def fetch_data(self ): 
+    def fetch_data(self): 
         self.valid_tickers = [] 
         for tick in self.indices : 
             try : 
