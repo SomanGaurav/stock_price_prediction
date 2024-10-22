@@ -33,6 +33,5 @@ class Indices(IndexCollector):
 if __name__ == "__main__": 
     input_dict = {'params' : {'indexList' : "^NSEI_^BSESN_^NSEBANK_^CNXIT"} }
     indices = Indices(input_dict)
-    print(indices.create_json())
 
 
