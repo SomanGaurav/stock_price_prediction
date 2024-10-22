@@ -1,6 +1,11 @@
-from src.utils.fetch_indices import IndexCollector 
 
 import json 
+import sys 
+import os
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
+from utils.fetch_indices import IndexCollector 
 
 class Indices(IndexCollector): 
     def __init__(self, input_dictionary): 
@@ -29,3 +34,5 @@ if __name__ == "__main__":
     input_dict = {'params' : {'indexList' : "^NSEI_^BSESN_^NSEBANK_^CNXIT"} }
     indices = Indices(input_dict)
     print(indices.create_json())
+
+
