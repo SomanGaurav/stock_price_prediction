@@ -1,7 +1,15 @@
 from flask import Flask , request 
 from flask_cors import CORS 
 from flask import jsonify
-from models import Linear_Regression 
+import sys 
+import os 
+
+
+from src.utils.models import Linear_Regression 
+from src.routes.index_data import Indices 
+#when running from this file there is no need for sys.path as this is not part of the package directory . 
+
+
 app = Flask(__name__) 
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type' 
@@ -35,4 +43,6 @@ def indices_out():
     # clean_index(indices)
     return jsonify({"Hello" : "NODE"} )
 if __name__ == "__main__" : 
+    input_dict = {'params' : {'indexList' : "^NSEI_^BSESN_^NSEBANK_^CNXIT"} }
+    IC = Indices(input_dict)
     app.run(debug=True , host='0.0.0.0') 
