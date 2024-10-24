@@ -4,7 +4,7 @@ import sys
 import os
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-
+'''Run the above code as it needs to perform interpackage import '''
 from utils.fetch_indices import IndexCollector 
 
 class Indices(IndexCollector): 
@@ -14,11 +14,13 @@ class Indices(IndexCollector):
         super().__init__(self.input_arr) 
 
 
-    def create_json(self): 
-        self.collected_data = self.fetch_data()
+    def get_json_data(self , file = 0): 
+        self.collected_data = self.fetch_data() 
+        if file == 0 : 
+            return self.collected_data 
         with open('src/routes/data.json' , 'w') as file : 
             json.dump(self.collected_data , file , indent= 4)
-
+        return self.collected_data
         
         
     def clean_index(self , input_string): 

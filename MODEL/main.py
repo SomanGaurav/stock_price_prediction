@@ -40,9 +40,9 @@ def forecast_out():
 @app.route("/getIndices" , methods = ["POST"]) 
 def indices_out(): 
     indices = request.get_json() 
-    # clean_index(indices)
-    return jsonify({"Hello" : "NODE"} )
+    IC = Indices(indices)
+    data = IC.get_json_data(file=0)
+    return data 
 if __name__ == "__main__" : 
-    input_dict = {'params' : {'indexList' : "^NSEI_^BSESN_^NSEBANK_^CNXIT"} }
-    IC = Indices(input_dict)
+    
     app.run(debug=True , host='0.0.0.0') 

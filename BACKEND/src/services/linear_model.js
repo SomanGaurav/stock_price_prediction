@@ -1,8 +1,4 @@
-
-
-
 const axios = require("axios"); 
-
 
 async function Linear_model() {
     axios.post("http://172.17.0.3:5000/forecast" , {
