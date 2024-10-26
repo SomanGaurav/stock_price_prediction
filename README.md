@@ -1,2 +1,3 @@
 # stock_price_prediction
-![image](https://github.com/user-attachments/assets/647e1586-75c5-4cba-b4c9-29177b45ce36)
+![image](https://github.com/user-attachments/assets/de647d65-cd10-499e-af73-f7678d493721)
+
