@@ -1,5 +1,6 @@
 __pycache__/
-model/
-.gitignore
+*.gitignore
 node_modules/
 package-lock.json
+trial*
+python_env/

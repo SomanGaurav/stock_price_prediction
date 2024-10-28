@@ -1,10 +1,17 @@
-import data_collector 
+from src.utils.data_collector import DATACOLLECTOR 
+#from data_collector import DATACOLLECTOR 
 from sklearn.linear_model import LinearRegression 
+
+'''when running this file change the import to remove src.utils as they are in same directory 
+but for main.py we have to specify the path for the dependency graph '''
+
+
+
 
 class Linear_Regression : 
     def __init__(self , stock_tick ) -> None:
         self.stock_tick = stock_tick 
-        self.dc = data_collector.DATACOLLECTOR()
+        self.dc = DATACOLLECTOR()
         self.lr = LinearRegression()
         self.start = "2012-01-01" 
 

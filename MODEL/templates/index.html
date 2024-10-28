@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Progress Tracker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Progress</h1>
+    <div id="progress"></div>
+
+    <script>
+        const socket = io();
+
+        socket.on('progress_update', function(data) {
+            document.getElementById('progress').innerText = `Progress: ${data.progress.toFixed(2)}%`;
+        });
+
+        // Start the long-running task when the page loads
+        window.onload = function() {
+            fetch('/start_task');
+        };
+    </script>
+</body>
+</html>
