@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        </head>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="row Content"></div>
+    <script>
+         jQuery.support.cors = true;
+        async function graph_data(){
+            const array = [{name:"Gaurav",age:20},{name:"Sahil",age:19},{name:"Manas", age:21}];
+        const Content = document.querySelector(".Content")
+        const showInHtml = array.map((ele,index)=>{
+            return `<div><h1>${ele.name}</h1></div>`
+        }).join('')
+        Content.innerHTML = showInHtml
+        }
+        async function send_tick(tick){
+            $.ajax({
+                url : "http://127.0.0.1:5000/indices" ,
+                type : "post", 
+                data : {
+                    tick:tick 
+                }, 
+                success : (response) =>{console.log(response)}
+
+            })
+        }
+        send_tick("ADANIENT.NS")
+        
+    </script>
+</body>
+</html>

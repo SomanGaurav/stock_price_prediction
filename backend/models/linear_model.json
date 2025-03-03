@@ -1,0 +1,504 @@
+{
+    "weights": [
+        {
+            "name": "Adani Enterprises Ltd.",
+            "ticker": "ADANIENT.NS",
+            "slopes": [
+                -0.6526704266200246,
+                0.8816160742723558,
+                0.7704524256645445
+            ],
+            "intercept": -0.18531974137374618
+        },
+        {
+            "name": "Adani Ports and Special Economic Zone Ltd.",
+            "ticker": "ADANIPORTS.NS",
+            "slopes": [
+                -0.5537036154402961,
+                0.8478366906187449,
+                0.703783514055497
+            ],
+            "intercept": -0.12071004321182954
+        },
+        {
+            "name": "Apollo Hospitals Enterprise Ltd.",
+            "ticker": "APOLLOHOSP.NS",
+            "slopes": [
+                -0.5512228154900575,
+                0.7820030336739494,
+                0.7689319224765988
+            ],
+            "intercept": -0.8056862733219532
+        },
+        {
+            "name": "Asian Paints Ltd.",
+            "ticker": "ASIANPAINT.NS",
+            "slopes": [
+                -0.5945959959938868,
+                0.8494071375661345,
+                0.7445472001952976
+            ],
+            "intercept": -0.29069164371242096
+        },
+        {
+            "name": "Axis Bank Ltd.",
+            "ticker": "AXISBANK.NS",
+            "slopes": [
+                -0.5478328158513103,
+                0.825894060673817,
+                0.7210613592024139
+            ],
+            "intercept": -0.114006504422548
+        },
+        {
+            "name": "Bajaj Auto Ltd.",
+            "ticker": "BAJAJ-AUTO.NS",
+            "slopes": [
+                -0.5086602782655372,
+                0.7268799012006661,
+                0.7816485041671599
+            ],
+            "intercept": 0.9338892755240522
+        },
+        {
+            "name": "Bajaj Finance Ltd.",
+            "ticker": "BAJFINANCE.NS",
+            "slopes": [
+                -0.6565099740823089,
+                0.8993076328953185,
+                0.7553845754633673
+            ],
+            "intercept": 0.18683538077584672
+        },
+        {
+            "name": "Bajaj Finserv Ltd.",
+            "ticker": "BAJAJFINSV.NS",
+            "slopes": [
+                -0.32222349960007335,
+                0.696868085696197,
+                0.6237172629512413
+            ],
+            "intercept": 0.11783130859566882
+        },
+        {
+            "name": "Bharat Petroleum Corporation Ltd.",
+            "ticker": "BPCL.NS",
+            "slopes": [
+                -0.498823367762755,
+                0.7688712487320781,
+                0.729158946743191
+            ],
+            "intercept": -0.03847015771592055
+        },
+        {
+            "name": "Bharti Airtel Ltd.",
+            "ticker": "BHARTIARTL.NS",
+            "slopes": [
+                -0.40930156393753575,
+                0.7443485073444553,
+                0.6636734162608076
+            ],
+            "intercept": 0.040805768514587726
+        },
+        {
+            "name": "Britannia Industries Ltd.",
+            "ticker": "BRITANNIA.NS",
+            "slopes": [
+                -0.40226424840780367,
+                0.6312872800435042,
+                0.7722775330391943
+            ],
+            "intercept": 0.0729669163338258
+        },
+        {
+            "name": "Cipla Ltd.",
+            "ticker": "CIPLA.NS",
+            "slopes": [
+                -0.49332486718681284,
+                0.7733105734305195,
+                0.7187577375307411
+            ],
+            "intercept": 0.057950942331672195
+        },
+        {
+            "name": "Coal India Ltd.",
+            "ticker": "COALINDIA.NS",
+            "slopes": [
+                -0.5079815526049445,
+                0.8485150483707693,
+                0.656623501618865
+            ],
+            "intercept": 0.04837146056502206
+        },
+        {
+            "name": "Divi's Laboratories Ltd.",
+            "ticker": "DIVISLAB.NS",
+            "slopes": [
+                -0.5116626127217255,
+                0.738648875018064,
+                0.7732218799626561
+            ],
+            "intercept": 0.15155425920056587
+        },
+        {
+            "name": "Dr. Reddy's Laboratories Ltd.",
+            "ticker": "DRREDDY.NS",
+            "slopes": [
+                -0.4417533861195243,
+                0.7443363280111743,
+                0.6966534026537099
+            ],
+            "intercept": -0.04349525711518254
+        },
+        {
+            "name": "Eicher Motors Ltd.",
+            "ticker": "EICHERMOT.NS",
+            "slopes": [
+                -0.5490202784150245,
+                0.7337769677678028,
+                0.8162549271885148
+            ],
+            "intercept": 0.003659474516211958
+        },
+        {
+            "name": "Grasim Industries Ltd.",
+            "ticker": "GRASIM.NS",
+            "slopes": [
+                -0.5196480044379721,
+                0.7900619131814584,
+                0.728429403622629
+            ],
+            "intercept": 0.12551754159539996
+        },
+        {
+            "name": "HCL Technologies Ltd.",
+            "ticker": "HCLTECH.NS",
+            "slopes": [
+                -0.5161080416047704,
+                0.7587446014562818,
+                0.7570711301561536
+            ],
+            "intercept": 0.09816180940839558
+        },
+        {
+            "name": "HDFC Bank Ltd.",
+            "ticker": "HDFCBANK.NS",
+            "slopes": [
+                -0.5707352539047227,
+                0.8433230145806663,
+                0.7266246361228507
+            ],
+            "intercept": 0.031241359877924424
+        },
+        {
+            "name": "HDFC Life Insurance Company Ltd.",
+            "ticker": "HDFCLIFE.NS",
+            "slopes": [
+                -0.5722627938499442,
+                0.7538014552527261,
+                0.8186213360533826
+            ],
+            "intercept": 0.006989585683072619
+        },
+        {
+            "name": "Hero MotoCorp Ltd.",
+            "ticker": "HEROMOTOCO.NS",
+            "slopes": [
+                -0.5364606490064282,
+                0.7742230615079104,
+                0.7617295118922098
+            ],
+            "intercept": 0.6345724080288164
+        },
+        {
+            "name": "Hindalco Industries Ltd.",
+            "ticker": "HINDALCO.NS",
+            "slopes": [
+                -0.5390336033819805,
+                0.7952969151950158,
+                0.7428693679578919
+            ],
+            "intercept": -0.03194765438354352
+        },
+        {
+            "name": "Hindustan Unilever Ltd.",
+            "ticker": "HINDUNILVR.NS",
+            "slopes": [
+                -0.5709602553255722,
+                0.7753506235322911,
+                0.7959797461813207
+            ],
+            "intercept": 0.06939268235248619
+        },
+        {
+            "name": "Housing Development Finance Corporation Ltd.",
+            "ticker": "HDFC.NS",
+            "slopes": [
+                -0.5517266219722958,
+                0.7344145021432611,
+                0.8185598382428675
+            ],
+            "intercept": 0.09591211218844364
+        },
+        {
+            "name": "ICICI Bank Ltd.",
+            "ticker": "ICICIBANK.NS",
+            "slopes": [
+                -0.5191869787156986,
+                0.7783032723218433,
+                0.7408466477571145
+            ],
+            "intercept": -0.031513991719066325
+        },
+        {
+            "name": "ITC Ltd.",
+            "ticker": "ITC.NS",
+            "slopes": [
+                -0.5006096266638185,
+                0.8239252453636268,
+                0.6753771987038575
+            ],
+            "intercept": -0.025808512198352673
+        },
+        {
+            "name": "IndusInd Bank Ltd.",
+            "ticker": "INDUSINDBK.NS",
+            "slopes": [
+                -0.5594164477632911,
+                0.8339124962079394,
+                0.7245130448769845
+            ],
+            "intercept": -0.29730260655298935
+        },
+        {
+            "name": "Infosys Ltd.",
+            "ticker": "INFY.NS",
+            "slopes": [
+                -0.5122945406398162,
+                0.7464011423506882,
+                0.7661025798400792
+            ],
+            "intercept": 0.0314369142751616
+        },
+        {
+            "name": "JSW Steel Ltd.",
+            "ticker": "JSWSTEEL.NS",
+            "slopes": [
+                -0.5774663744696124,
+                0.8294322493765649,
+                0.7469353754631614
+            ],
+            "intercept": -0.048266352941510604
+        },
+        {
+            "name": "Kotak Mahindra Bank Ltd.",
+            "ticker": "KOTAKBANK.NS",
+            "slopes": [
+                -0.525949202671572,
+                0.8754853943707372,
+                0.6484248051056931
+            ],
+            "intercept": -0.19067917063136974
+        },
+        {
+            "name": "Larsen & Toubro Ltd.",
+            "ticker": "LT.NS",
+            "slopes": [
+                -0.5369035478182695,
+                0.8281427348272363,
+                0.7070196085064047
+            ],
+            "intercept": -0.06361909509246289
+        },
+        {
+            "name": "Mahindra & Mahindra Ltd.",
+            "ticker": "M&M.NS",
+            "slopes": [
+                -0.536311904264137,
+                0.8218172201338168,
+                0.713202680510769
+            ],
+            "intercept": -0.06392028266793659
+        },
+        {
+            "name": "Maruti Suzuki India Ltd.",
+            "ticker": "MARUTI.NS",
+            "slopes": [
+                -0.6011905267073749,
+                0.8565416906896812,
+                0.7433060026365638
+            ],
+            "intercept": -0.25924632850546914
+        },
+        {
+            "name": "NTPC Ltd.",
+            "ticker": "NTPC.NS",
+            "slopes": [
+                -0.49239673264662276,
+                0.7879970028437764,
+                0.7017926049087337
+            ],
+            "intercept": 0.1469066750719037
+        },
+        {
+            "name": "Nestle India Ltd.",
+            "ticker": "NESTLEIND.NS",
+            "slopes": [
+                -0.47370542372743046,
+                0.7721551137131513,
+                0.7010962332001053
+            ],
+            "intercept": -1.8983020390332968
+        },
+        {
+            "name": "Oil & Natural Gas Corporation Ltd.",
+            "ticker": "ONGC.NS",
+            "slopes": [
+                -0.46383081549917554,
+                0.7717902612988088,
+                0.6901127143752075
+            ],
+            "intercept": 0.02169099571351296
+        },
+        {
+            "name": "Power Grid Corporation of India Ltd.",
+            "ticker": "POWERGRID.NS",
+            "slopes": [
+                -0.4525368194015052,
+                0.7808305788398768,
+                0.6693973611532984
+            ],
+            "intercept": 0.09170607744044901
+        },
+        {
+            "name": "Reliance Industries Ltd.",
+            "ticker": "RELIANCE.NS",
+            "slopes": [
+                -0.6096533522906321,
+                0.8370281885745292,
+                0.7716429062320329
+            ],
+            "intercept": -0.024268683378181777
+        },
+        {
+            "name": "SBI Life Insurance Company Ltd.",
+            "ticker": "SBILIFE.NS",
+            "slopes": [
+                -0.45960429562648886,
+                0.7400117526840408,
+                0.7208396867943316
+            ],
+            "intercept": -1.7397873719818335
+        },
+        {
+            "name": "State Bank of India",
+            "ticker": "SBIN.NS",
+            "slopes": [
+                -0.6104286786136954,
+                0.8400128437589984,
+                0.7697367103961885
+            ],
+            "intercept": -0.06847334970831298
+        },
+        {
+            "name": "Sun Pharmaceutical Industries Ltd.",
+            "ticker": "SUNPHARMA.NS",
+            "slopes": [
+                -0.5440487754816083,
+                0.8130369903181209,
+                0.729417534612336
+            ],
+            "intercept": -0.0033837194198440557
+        },
+        {
+            "name": "Tata Consultancy Services Ltd.",
+            "ticker": "TCS.NS",
+            "slopes": [
+                -0.5402604005762844,
+                0.7937434236207035,
+                0.746237066375741
+            ],
+            "intercept": -0.1299160620535531
+        },
+        {
+            "name": "Tata Consumer Products Ltd.",
+            "ticker": "TATACONSUM.NS",
+            "slopes": [
+                -0.5373289489487688,
+                0.7759959103324516,
+                0.7611646738487811
+            ],
+            "intercept": -0.09081797674087966
+        },
+        {
+            "name": "Tata Motors Ltd.",
+            "ticker": "TATAMOTORS.NS",
+            "slopes": [
+                -0.5241695210104313,
+                0.8489696069116099,
+                0.6727196510784992
+            ],
+            "intercept": -0.09650346788637876
+        },
+        {
+            "name": "Tata Steel Ltd.",
+            "ticker": "TATASTEEL.NS",
+            "slopes": [
+                -0.5725572223567641,
+                0.8280860335886695,
+                0.7432546342947168
+            ],
+            "intercept": -0.015999450869294662
+        },
+        {
+            "name": "Tech Mahindra Ltd.",
+            "ticker": "TECHM.NS",
+            "slopes": [
+                -0.532952032021752,
+                0.798185018574284,
+                0.7345927168479967
+            ],
+            "intercept": -0.5430564407899965
+        },
+        {
+            "name": "Titan Company Ltd.",
+            "ticker": "TITAN.NS",
+            "slopes": [
+                -0.554329211468642,
+                0.812702747114366,
+                0.7410869718615583
+            ],
+            "intercept": -0.055488341212424075
+        },
+        {
+            "name": "UPL Ltd.",
+            "ticker": "UPL.NS",
+            "slopes": [
+                -0.5141296540511471,
+                0.7771746047342334,
+                0.7363210018304835
+            ],
+            "intercept": -0.11311727049508136
+        },
+        {
+            "name": "UltraTech Cement Ltd.",
+            "ticker": "ULTRACEMCO.NS",
+            "slopes": [
+                -0.572553524358117,
+                0.7972729395022622,
+                0.7748025124000061
+            ],
+            "intercept": 0.1820608646476103
+        },
+        {
+            "name": "Wipro Ltd.",
+            "ticker": "WIPRO.NS",
+            "slopes": [
+                -0.4750186064776952,
+                0.7487252381637028,
+                0.725773212139745
+            ],
+            "intercept": 0.030947368580996226
+        }
+    ]
+}

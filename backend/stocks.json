@@ -1,0 +1,204 @@
+{
+    "stocks": [
+        {
+            "name": "Adani Enterprises Ltd.",
+            "tick": "ADANIENT.NS"
+        },
+        {
+            "name": "Adani Ports and Special Economic Zone Ltd.",
+            "tick": "ADANIPORTS.NS"
+        },
+        {
+            "name": "Apollo Hospitals Enterprise Ltd.",
+            "tick": "APOLLOHOSP.NS"
+        },
+        {
+            "name": "Asian Paints Ltd.",
+            "tick": "ASIANPAINT.NS"
+        },
+        {
+            "name": "Axis Bank Ltd.",
+            "tick": "AXISBANK.NS"
+        },
+        {
+            "name": "Bajaj Auto Ltd.",
+            "tick": "BAJAJ-AUTO.NS"
+        },
+        {
+            "name": "Bajaj Finance Ltd.",
+            "tick": "BAJFINANCE.NS"
+        },
+        {
+            "name": "Bajaj Finserv Ltd.",
+            "tick": "BAJAJFINSV.NS"
+        },
+        {
+            "name": "Bharat Petroleum Corporation Ltd.",
+            "tick": "BPCL.NS"
+        },
+        {
+            "name": "Bharti Airtel Ltd.",
+            "tick": "BHARTIARTL.NS"
+        },
+        {
+            "name": "Britannia Industries Ltd.",
+            "tick": "BRITANNIA.NS"
+        },
+        {
+            "name": "Cipla Ltd.",
+            "tick": "CIPLA.NS"
+        },
+        {
+            "name": "Coal India Ltd.",
+            "tick": "COALINDIA.NS"
+        },
+        {
+            "name": "Divi's Laboratories Ltd.",
+            "tick": "DIVISLAB.NS"
+        },
+        {
+            "name": "Dr. Reddy's Laboratories Ltd.",
+            "tick": "DRREDDY.NS"
+        },
+        {
+            "name": "Eicher Motors Ltd.",
+            "tick": "EICHERMOT.NS"
+        },
+        {
+            "name": "Grasim Industries Ltd.",
+            "tick": "GRASIM.NS"
+        },
+        {
+            "name": "HCL Technologies Ltd.",
+            "tick": "HCLTECH.NS"
+        },
+        {
+            "name": "HDFC Bank Ltd.",
+            "tick": "HDFCBANK.NS"
+        },
+        {
+            "name": "HDFC Life Insurance Company Ltd.",
+            "tick": "HDFCLIFE.NS"
+        },
+        {
+            "name": "Hero MotoCorp Ltd.",
+            "tick": "HEROMOTOCO.NS"
+        },
+        {
+            "name": "Hindalco Industries Ltd.",
+            "tick": "HINDALCO.NS"
+        },
+        {
+            "name": "Hindustan Unilever Ltd.",
+            "tick": "HINDUNILVR.NS"
+        },
+        {
+            "name": "Housing Development Finance Corporation Ltd.",
+            "tick": "HDFC.NS"
+        },
+        {
+            "name": "ICICI Bank Ltd.",
+            "tick": "ICICIBANK.NS"
+        },
+        {
+            "name": "ITC Ltd.",
+            "tick": "ITC.NS"
+        },
+        {
+            "name": "IndusInd Bank Ltd.",
+            "tick": "INDUSINDBK.NS"
+        },
+        {
+            "name": "Infosys Ltd.",
+            "tick": "INFY.NS"
+        },
+        {
+            "name": "JSW Steel Ltd.",
+            "tick": "JSWSTEEL.NS"
+        },
+        {
+            "name": "Kotak Mahindra Bank Ltd.",
+            "tick": "KOTAKBANK.NS"
+        },
+        {
+            "name": "Larsen & Toubro Ltd.",
+            "tick": "LT.NS"
+        },
+        {
+            "name": "Mahindra & Mahindra Ltd.",
+            "tick": "M&M.NS"
+        },
+        {
+            "name": "Maruti Suzuki India Ltd.",
+            "tick": "MARUTI.NS"
+        },
+        {
+            "name": "NTPC Ltd.",
+            "tick": "NTPC.NS"
+        },
+        {
+            "name": "Nestle India Ltd.",
+            "tick": "NESTLEIND.NS"
+        },
+        {
+            "name": "Oil & Natural Gas Corporation Ltd.",
+            "tick": "ONGC.NS"
+        },
+        {
+            "name": "Power Grid Corporation of India Ltd.",
+            "tick": "POWERGRID.NS"
+        },
+        {
+            "name": "Reliance Industries Ltd.",
+            "tick": "RELIANCE.NS"
+        },
+        {
+            "name": "SBI Life Insurance Company Ltd.",
+            "tick": "SBILIFE.NS"
+        },
+        {
+            "name": "State Bank of India",
+            "tick": "SBIN.NS"
+        },
+        {
+            "name": "Sun Pharmaceutical Industries Ltd.",
+            "tick": "SUNPHARMA.NS"
+        },
+        {
+            "name": "Tata Consultancy Services Ltd.",
+            "tick": "TCS.NS"
+        },
+        {
+            "name": "Tata Consumer Products Ltd.",
+            "tick": "TATACONSUM.NS"
+        },
+        {
+            "name": "Tata Motors Ltd.",
+            "tick": "TATAMOTORS.NS"
+        },
+        {
+            "name": "Tata Steel Ltd.",
+            "tick": "TATASTEEL.NS"
+        },
+        {
+            "name": "Tech Mahindra Ltd.",
+            "tick": "TECHM.NS"
+        },
+        {
+            "name": "Titan Company Ltd.",
+            "tick": "TITAN.NS"
+        },
+        {
+            "name": "UPL Ltd.",
+            "tick": "UPL.NS"
+        },
+        {
+            "name": "UltraTech Cement Ltd.",
+            "tick": "ULTRACEMCO.NS"
+        },
+        {
+            "name": "Wipro Ltd.",
+            "tick": "WIPRO.NS"
+        }
+    ]
+}

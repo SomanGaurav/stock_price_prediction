@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://code.jscharting.com/2.9.0/jscharting.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/stocks.css">
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Header -->
+      <!-- <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+          <span class="material-icons-outlined">search</span>
+        </div>
+        <div class="header-right">
+          <span class="material-icons-outlined">notifications</span>
+          <span class="material-icons-outlined">email</span>
+          <span class="material-icons-outlined">account_circle</span>
+        </div>
+      </header> -->
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-icons-outlined">inventory</span> Stock Predictor
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item" id="Dashboard">
+              <span class="material-icons-outlined">dashboard</span> Dashboard
+          </li>
+          <li class="sidebar-list-item" id="Stocks">
+              <span class="material-icons-outlined">inventory_2</span> Stocks 
+          </li>
+          <li class="sidebar-list-item">
+            <a href="https://front.page/paper-trades/positions" target="_blank">
+              <span class="material-icons-outlined">fact_check</span> Paper Trading
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="https://www.tickertape.in/blog/national-stock-exchange/" target="_blank">
+              <span class="material-icons-outlined"></span> NSE BLOGS
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="https://www.investindia.gov.in/team-india-blogs/t/bombay-stock-exchange-bse" target="_blank">
+              <span class="material-icons-outlined"></span> BSE BLOGS
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+              <a href="https://s2analytics.com/blog/intraday-trading/" target="_blank ">
+              <span class="material-icons-outlined"></span> IntradayTrading
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="https://navi.com/blog/position-trading/"  target="_blank ">
+            <span class="material-icons-outlined"></span> Postion Trading
+          </a>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="https://blog.quantinsti.com/swing-trading/" target="_blank ">
+          <span class="material-icons-outlined"></span> Swing Trading 
+        </a>
+      </li>
+      <li class="sidebar-list-item">
+        <a href="https://tradebrains.in/8-best-indian-stock-market-blogs/" target="_blank ">
+        <span class="material-icons-outlined"></span> Long Term Trading 
+      </a>
+    </li>
+        </ul>
+      </aside>
+      <!-- End Sidebar -->
+
+      <!-- Main -->
+      <main class="main-container">
+        <div class="main-title">
+          <p class="font-weight-bold">STOCKS</p>
+        </div>
+        <div class="stock-container">
+          
+        </div>
+      </main>
+      <!-- End Main -->
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/stocks.js"></script>
+  </body>
+</html>
