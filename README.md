@@ -25,4 +25,3 @@ Once the dependencies are installed run the linear_trainer.py and lstm_trainer.p
 - From the browser access that port thorugh localhost to expose the frontend code .
 - Select the Stock that you want to further analyse .
 - The specific stock page provide predictions from both the LSTM and the Linear model .
-- 
