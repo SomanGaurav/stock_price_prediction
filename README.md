@@ -1,7 +1,11 @@
 # Stock Price Prediction 
-A web app that makes use of LSTM and Linear Regression to provide the closing price of the stock for the given day. 
+Stock Price Prediction is a web based appication that makes use of Models like Long Short Term Memory and Linear Regression to assist **Intraday Traders** for choosing a correct stock and predicting the price at which the stock closes . 
+This Application Makes use of Basic Html , CSS and Javascript to serve the frontend on the browser . We make use of Flask library in Python to provide the RESTFUL API to allow authenticated users to avail the model services . 
 
-## Technologies Used .
-HTML CSS and Javascript for Frontend Devlopment providing a smooth UI/UX experience. 
-Flask API for providing model access and implementing security . 
-Use of Tensorflow and Keras for implementing a LSTM model and Scikit library for implementing a Linear Regression model . 
+###How does this Application helps Intraday traders . 
+- The *LSTM* model make a next day prediction using previous month data to whether tommorrow the stock price will increase or decrease .
+- The *Linear Regressor* makes prediction using current day data , i.e. Open , High , Low Prices to predict at what price will the stock close .
+
+###Model Training and Setup 
+- The machine 
+
