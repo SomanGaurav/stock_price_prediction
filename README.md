@@ -19,3 +19,10 @@ Once the dependencies are installed run the linear_trainer.py and lstm_trainer.p
 - The Linear Regression saves the model for a particular stock in form of it's weights and bias in a json file associated with stock symbol .
 - The LSTM model is save inside the model folder as a form of tensorflow saved model . 
 
+### How to use the model . 
+- The First step would be setup and to complete the model training for both linear regressor and LSTM .
+- Start the Flask server and note the port it's running on .
+- From the browser access that port thorugh localhost to expose the frontend code .
+- Select the Stock that you want to further analyse .
+- The specific stock page provide predictions from both the LSTM and the Linear model .
+- 
